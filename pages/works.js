@@ -25,18 +25,7 @@ const Works = () => (
             website that helps farmers sell their products online.
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem
-            id="Foodie"
-            title="Foodie"
-            thumbnail={thumbWalknote}
-          >
-            An android app that helps you order food from your favorite restaurant
-            using voice.
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
+       <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
             title="The four painters"
