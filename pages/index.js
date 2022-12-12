@@ -79,15 +79,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        I am a Software Engineer specializing in building applications that run on the cloud. Software systems that 
-        are scalable, secure and reliable. I have a passion for building applications that are easy to use and
+        I have a passion for building applications that are easy to use and
         that solve real world problems. I have experience in building applications using a variety of technologies
-        and frameworks. I am a full stack developer with a focus on the front end. I have experience in building
-        applications using React, Angular, Vue, Node, Express, Django, Flask, Laravel, and Ruby on Rails. I have
-        experience in building applications using a variety of databases including MySQL, PostgreSQL, MongoDB, and
-        Firebase. I have experience in building applications using a variety of cloud platforms including AWS, GCP,
-        and Azure. I have experience in building applications using a variety of programming languages including
-        JavaScript, TypeScript, Python, PHP, Ruby, and Java.  
+       . I have experience in building applications using Angular,Node, Express, Django and Laravel. I have
+        experience in building applications using a variety of databases including MySQL, MongoDB, and
+        Firebase. I have experience in building applications using a variety of cloud platforms including GCP and 
+        Azure. I have experience in building applications using a variety of programming languages including
+        JavaScript, TypeScript, Python, PHP and Go.  
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
