@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/dennis123.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -79,15 +79,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        I am a Software Engineer specializing in building applications that run on the cloud. Software systems that 
-        are scalable, secure and reliable. I have a passion for building applications that are easy to use and
-        that solve real world problems. I have experience in building applications using a variety of technologies
-        and frameworks. I am a full stack developer with a focus on the front end. I have experience in building
-        applications using React, Angular, Vue, Node, Express, Django, Flask, Laravel, and Ruby on Rails. I have
-        experience in building applications using a variety of databases including MySQL, PostgreSQL, MongoDB, and
-        Firebase. I have experience in building applications using a variety of cloud platforms including AWS, GCP,
-        and Azure. I have experience in building applications using a variety of programming languages including
-        JavaScript, TypeScript, Python, PHP, Ruby, and Java.  
+        <br> I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
+        passion for building applications that are easy to use and that solve real world problems. </br>
+        <br>
+        <br>Various techonologies I use include:</br>
+        Frameworks <strong>Angular, Node,  Django, Flask and Laravel</strong>
+        Databases  <strong>MySQL, MongoDB, Firebase</strong>
+        Cloud platforms <strong>Azure, GCP</strong>
+        Languages <strong>C/C++, JavaScript, TypeScript, Python, PHP, GO</strong>  
+        </br>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -104,8 +104,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed high school at Nyeri High School (Nyeri, Kenya) where
-          I passed with a mean grade of A-.
+          Completed high school at Nyeri High School (Nyeri, Kenya).
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
@@ -124,7 +123,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
            Art ,
-           Reading
+           Travelling
           , Reading
         </Paragraph>
       </Section>
