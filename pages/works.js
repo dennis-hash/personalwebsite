@@ -28,17 +28,16 @@ const Works = () => (
        <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
+            title="Self service helpdesk"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            A web-based system that allows users to ask questions about their flight.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="menkiki" 
+          thumbnail={thumbMenkiki} title="Bank web portal">
+            A dammy bank web portal that allows users to manage their accounts.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -46,23 +45,22 @@ const Works = () => (
    
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Reveiws">
+          Model that supports consumer decisions using online reviews.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            title="Food delivery"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            An app that allows users to order food from their favorite restaurants.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <WorkGridItem id="AEPM" thumbnail={thumbStyly} title="Styly">
+          Anti-entropy-propagation-model
           </WorkGridItem>
         </Section>
       </SimpleGrid>
