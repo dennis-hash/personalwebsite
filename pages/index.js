@@ -79,6 +79,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
+<<<<<<< HEAD
         <br> I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
         passion for building applications that are easy to use and that solve real world problems. </br>
         <br>
@@ -88,6 +89,15 @@ const Home = () => (
         Cloud platforms <strong>Azure, GCP</strong>
         Languages <strong>C/C++, JavaScript, TypeScript, Python, PHP, GO</strong>  
         </br>
+=======
+        I have a passion for building applications that are easy to use and
+        that solve real world problems. I have experience in building applications using a variety of technologies
+       . I have experience in building applications using Angular,Node, Express, Django and Laravel. I have
+        experience in building applications using a variety of databases including MySQL, MongoDB, and
+        Firebase. I have experience in building applications using a variety of cloud platforms including GCP and 
+        Azure. I have experience in building applications using a variety of programming languages including
+        JavaScript, TypeScript, Python, PHP and Go.  
+>>>>>>> c7de0097c19dd2658d87299372b89b0e780cdaf6
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
