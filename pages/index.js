@@ -79,15 +79,15 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        <br> I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
-        passion for building applications that are easy to use and that solve real world problems. </br>
-        <br>
-        <br>Various techonologies I use include:</br>
+        I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
+        passion for building applications that are easy to use and that solve real world problems.
+       
+        Various techonologies I use include:
         Frameworks <strong>Angular, Node,  Django, Flask and Laravel</strong>
         Databases  <strong>MySQL, MongoDB, Firebase</strong>
         Cloud platforms <strong>Azure, GCP</strong>
         Languages <strong>C/C++, JavaScript, TypeScript, Python, PHP, GO</strong>  
-        </br>
+        
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
