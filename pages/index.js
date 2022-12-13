@@ -79,10 +79,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
-        passion for building applications that are easy to use and that solve real world problems.
+        <p>I am a Software Engineer building software systems that are scalable, secure and reliable. I have a
+        passion for building applications that are easy to use and that solve real world problems.</p>
        
-        <p>Various techonologies I use include:</p>
+        <p>Some of the techonologies I use include:</p>
         <p>Frameworks <strong>Angular, Node,  Django, Flask and Laravel</strong></p>
         <p> Databases  <strong>MySQL, MongoDB, Firebase</strong></p>
         <p>Cloud platforms <strong>Azure, GCP</strong></p>
