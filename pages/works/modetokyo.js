@@ -12,7 +12,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="mode.tokyo">
+  <Layout title="Bank Portal">
     <Container>
       <Title>
         Bank Portal <Badge>2021</Badge>
