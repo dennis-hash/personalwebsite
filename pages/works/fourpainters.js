@@ -33,8 +33,6 @@ const Work = () => (
           <span>Angular</span>
         </ListItem>
         <ListItem>
-          
-        </ListItem>
         <LinkItem
             target="_blank"
             href="https://github.com/dennis-hash/self-service-help-desk"
@@ -47,7 +45,7 @@ const Work = () => (
             <IoLogoGithub />
             Github
           </LinkItem>
-        
+          </ListItem>
        
       </List>
 
