@@ -20,6 +20,15 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.1}>
+          <WorkGridItem
+            id="modetokyo"
+            thumbnail={thumbModeTokyo}
+            title="Bank portal"
+          >
+          A dammy bank web portal that allows users to manage their accounts.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="styly" title="Mfarm" thumbnail={thumbInkdrop}>
             website that helps farmers sell their products online.
@@ -35,15 +44,9 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" 
-          thumbnail={thumbMenkiki} title="Bank web portal">
-            A dammy bank web portal that allows users to manage their accounts.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
+            id="menkiki"
+            thumbnail={thumbMenkiki}
             title="Food delivery"
           >
             An app that allows users to order food from their favorite restaurants.
