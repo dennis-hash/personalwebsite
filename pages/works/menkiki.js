@@ -31,15 +31,16 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>Flatter, Dialogflow</span>
         </ListItem>
+        
         <ListItem>
-       
-          </ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/dennis-hash/food-delivery">
+            Bank Portal <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
        
       </List>
 
-      
-      
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/food2.jpeg" alt="menkiki" />
         <WorkImage src="/images/works/food3.jpeg" alt="menkiki" />
