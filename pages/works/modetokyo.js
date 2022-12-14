@@ -26,11 +26,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Angular</span>
+          <span>Angular,Django rest</span>
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/dennis-hash/Project2ndYear">
+          <Link href="https://github.com/dennis-hash/bank-portal">
             Bank Portal <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
