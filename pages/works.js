@@ -21,7 +21,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="Mfarm" title="Mfarm" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="styly" title="Mfarm" thumbnail={thumbInkdrop}>
             website that helps farmers sell their products online.
           </WorkGridItem>
         </Section>
@@ -40,7 +40,7 @@ const Works = () => (
             A dammy bank web portal that allows users to manage their accounts.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.1}>
           <WorkGridItem
             id="modetokyo"
             thumbnail={thumbModeTokyo}
@@ -50,18 +50,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-    <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="Food delivery"
-          >
-            An app that allows users to order food from their favorite restaurants.
-          </WorkGridItem>
-        </Section>
-       
-      </SimpleGrid>
+ 
     </Container>
   </Layout>
 )
