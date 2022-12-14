@@ -4,6 +4,7 @@ import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
 import VoxelDogLoader from '../voxel-dog-loader'
+import VoxelDog from '../voxel-dog'
 
 const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
   ssr: false,
