@@ -42,7 +42,7 @@ const Work = () => (
       </List>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/food2.jpeg" alt="menkiki" />
+        <WorkImage src="/images/works/food2.png" alt="menkiki" />
         <WorkImage src="/images/works/food3.jpeg" alt="menkiki" />
         <WorkImage src="/images/works/food1.png" alt="menkiki" />
       </SimpleGrid>
