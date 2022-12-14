@@ -39,18 +39,7 @@ const Work = () => (
        
       </List>
 
-      <LinkItem
-            target="_blank"
-            href="https://github.com/dennis-hash/self-service-help-desk"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            Github
-          </LinkItem>
+      
 
       <WorkImage src="/images/works/the-four-painters_01.png" alt="walknote" />
       <WorkImage src="/images/works/the-four-painters_02.png" alt="walknote" />
