@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/works/1.png'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_01.png'
-import thumbMenkiki from '../public/images/works/food2.png'
+import thumbMenkiki from '../public/images/works/food4.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/bank1.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -23,14 +23,14 @@ const Works = () => (
       <Section delay={0.1}>
           <WorkGridItem
             id="modetokyo"
-            thumbnail={thumbInkdrop}
+            thumbnail={thumbModeTokyo}
             title="Bank portal"
           >
           A dammy bank web portal that allows users to manage their accounts.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="styly" title="Lfarm" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="styly" title="Mfarm" thumbnail={thumbInkdrop}>
             website that helps farmers sell their products online.
           </WorkGridItem>
         </Section>
