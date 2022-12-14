@@ -23,7 +23,7 @@ const Works = () => (
       <Section delay={0.1}>
           <WorkGridItem
             id="modetokyo"
-            thumbnail={thumbModeTokyo}
+            thumbnail={thumbInkdrop}
             title="Bank portal"
           >
           A dammy bank web portal that allows users to manage their accounts.
