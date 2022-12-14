@@ -44,11 +44,7 @@ const Works = () => (
 
    
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Reveiws">
-          Model that supports consumer decisions using online reviews.
-          </WorkGridItem>
-        </Section>
+      
         <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
@@ -58,12 +54,7 @@ const Works = () => (
             An app that allows users to order food from their favorite restaurants.
           </WorkGridItem>
         </Section>
-       /* 
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="aepm">
-          Anti-entropy-propagation-model for distributed systems.
-          </WorkGridItem>
-        </Section>*/
+       
       </SimpleGrid>
     </Container>
   </Layout>
