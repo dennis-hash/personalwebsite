@@ -21,13 +21,16 @@ const Work = () => (
         Self ervice help desk <Badge>2022</Badge>
       </Title>
       <P>
-      A web-based system that allows users to ask questions about their flight. The system uses Dialogflow API to understand the user's question and then returns the answer to the user. The system also allows users to ask questions about the flight in English.
+      A real world demo (Airport Self Service Kiosk) to stream microphone audio output (WebRTC) to a back-end web application over websockets, and let your conversational AI speak out the answers. A solution built with: Dialogflow for chatbots, Speech to Text, Text to Speech, Websockets, Angular, Node.js, Audio Streaming, WebRTC.
+
+      Resources
+
       
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Angular,Dialogflow api,JavaScript</span>
+          <span>Angular</span>
         </ListItem>
         <ListItem>
           
