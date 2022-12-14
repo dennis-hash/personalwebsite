@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-        Self ervice help desk <Badge>2022</Badge>
+        Self service help desk <Badge>2022</Badge>
       </Title>
       <P>
       A real world demo (Airport Self Service Kiosk) to stream microphone audio output (WebRTC) to a back-end web application over websockets, and let your conversational AI speak out the answers. A solution built with: Dialogflow for chatbots, Speech to Text, Text to Speech, Websockets, Angular, Node.js, Audio Streaming, WebRTC.
@@ -35,6 +35,18 @@ const Work = () => (
         <ListItem>
           
         </ListItem>
+        <LinkItem
+            target="_blank"
+            href="https://github.com/dennis-hash/self-service-help-desk"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Github
+          </LinkItem>
         
        
       </List>
