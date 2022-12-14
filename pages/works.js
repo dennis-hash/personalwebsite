@@ -40,11 +40,17 @@ const Works = () => (
             A dammy bank web portal that allows users to manage their accounts.
           </WorkGridItem>
         </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="modetokyo"
+            thumbnail={thumbModeTokyo}
+            title="Food delivery"
+          >
+            An app that allows users to order food from their favorite restaurants.
+          </WorkGridItem>
+        </Section>
       </SimpleGrid>
-
-   
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      
+    <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
