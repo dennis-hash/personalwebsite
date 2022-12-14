@@ -15,12 +15,12 @@ const Work = () => (
   <Layout title="STYLY">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        Mfarm <Badge>2021</Badge>
       </Title>
       <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
+       Mfarm is an online platform that enables farmers to sell their products directly to consumers.
+       It  also allows farmers access the latest information on farming practices and market trends.
+       The website has been integrated with Mpesa to allow for online payments.
       </P>
 
       <List ml={4} my={4}>
@@ -30,12 +30,12 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, PHP</span>
+          <span>PHP</span>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://styly.cc/">
-            STYLY <ExternalLinkIcon mx="2px" />
+          <Meta>Github</Meta>
+          <Link href="https://github.com/dennis-hash/Project2ndYear">
+            Mfarm <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
