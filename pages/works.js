@@ -58,11 +58,12 @@ const Works = () => (
             An app that allows users to order food from their favorite restaurants.
           </WorkGridItem>
         </Section>
+       /* 
         <Section delay={0.3}>
           <WorkGridItem id="styly" thumbnail={thumbStyly} title="aepm">
           Anti-entropy-propagation-model for distributed systems.
           </WorkGridItem>
-        </Section>
+        </Section>*/
       </SimpleGrid>
     </Container>
   </Layout>
