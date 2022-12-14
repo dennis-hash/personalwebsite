@@ -21,7 +21,8 @@ const Work = () => (
         Self ervice help desk <Badge>2022</Badge>
       </Title>
       <P>
-      A web-based system that allows users to ask questions about their flight.
+      A web-based system that allows users to ask questions about their flight. The system uses Dialogflow API to understand the user's question and then returns the answer to the user. The system also allows users to ask questions about the flight in English.
+      
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -35,24 +36,8 @@ const Work = () => (
        
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
+     
 
-      <Box>
-        <iframe
-          src="https://player.vimeo.com/video/146373709"
-          width="100%"
-          height="400"
-          frameBorder="0"
-          allowFullScreen
-        />
-      </Box>
-
-      <WorkImage
-        src="/images/works/the-four-painters_eyecatch.jpg"
-        alt="walknote"
-      />
       <WorkImage src="/images/works/the-four-painters_01.png" alt="walknote" />
       <WorkImage src="/images/works/the-four-painters_02.png" alt="walknote" />
     </Container>
