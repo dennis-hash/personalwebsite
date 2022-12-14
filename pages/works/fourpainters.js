@@ -34,7 +34,12 @@ const Work = () => (
           <span>Angular</span>
         </ListItem>
         <ListItem>
-        <LinkItem
+       
+          </ListItem>
+       
+      </List>
+
+      <LinkItem
             target="_blank"
             href="https://github.com/dennis-hash/self-service-help-desk"
             path={path}
@@ -46,11 +51,6 @@ const Work = () => (
             <IoLogoGithub />
             Github
           </LinkItem>
-          </ListItem>
-       
-      </List>
-
-     
 
       <WorkImage src="/images/works/the-four-painters_01.png" alt="walknote" />
       <WorkImage src="/images/works/the-four-painters_02.png" alt="walknote" />
