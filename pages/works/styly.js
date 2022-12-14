@@ -40,20 +40,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/YLdHAggLBCw"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>
-
-      <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/works/1.png" alt="STYLY" />
+      <WorkImage src="/images/works/2.png" alt="STYLY" />
+     
     </Container>
   </Layout>
 )
