@@ -185,17 +185,17 @@ const VoxelDog = () => {
 
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
+      controls.target = target
       setControls(controls)
 
-    }
+      loadGLTFModel(scene, '/dog.glb', {
+        receiveShadow: false,
+        castShadow: false
+      }).then(() => {
+        animate()
+        setLoading(false)
+      })
 
-    loadGLTFModel(scene, '../public/dog.glb', {
-      receiveShadow: false,
-      castShadow: false
-    }).then(() => {
-      animate()
-      setLoading(false)
-    })
     
     let req = null
     let frame = 0
@@ -226,7 +226,7 @@ const VoxelDog = () => {
       renderer.dispose()
     }
   
-
+  }
     },[])
 
 
