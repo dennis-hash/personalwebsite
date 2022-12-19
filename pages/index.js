@@ -64,10 +64,10 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/dennis123.jpg"
               alt="dennis profile"
               borderRadius="full"
-              width="50%"
+              width="100%"
               height="100%"
             />
           </Box>
