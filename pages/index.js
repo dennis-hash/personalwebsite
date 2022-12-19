@@ -65,7 +65,7 @@ const Home = () => (
           >
             <ProfileImage
               src="../public/1.png"
-              alt="Profile image"
+              alt="dennis profile"
               borderRadius="full"
               width="50%"
               height="100%"
