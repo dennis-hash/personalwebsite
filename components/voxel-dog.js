@@ -138,6 +138,7 @@ function easeOutCirc(x){
 const VoxelDog = () => {
   const refContainer = useRef()
   const [loading,setLoading] = useState(true)
+  
 
   return <Box ref={refContainer} className='voxel-dog' m="auto" 
   at={['-20px','-60px','-120px']}
