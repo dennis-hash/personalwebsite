@@ -189,7 +189,7 @@ const VoxelDog = () => {
 
     }
 
-    loadGLTFModel(scene, '/dog.glb', {
+    loadGLTFModel(scene, '../public/dog.glb', {
       receiveShadow: false,
       castShadow: false
     }).then(() => {
