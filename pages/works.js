@@ -30,7 +30,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="styly" title="Mfarm" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="styly" title="FarmDirect" thumbnail={thumbInkdrop}>
             website that helps farmers sell their products online.
           </WorkGridItem>
         </Section>

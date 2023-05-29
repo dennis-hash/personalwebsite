@@ -12,13 +12,13 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Mfarm">
+  <Layout title="FarmDirect">
     <Container>
       <Title>
-        Mfarm <Badge>2021</Badge>
+      FarmDirect <Badge>2021</Badge>
       </Title>
       <P>
-       Mfarm is an online platform that enables farmers to sell their products directly to consumers.
+      FarmDirect is an online platform that enables farmers to sell their products directly to consumers.
        It  also allows farmers access the latest information on farming practices and market trends.
        The website has been integrated with Mpesa to allow for online payments.
       </P>
@@ -35,7 +35,7 @@ const Work = () => (
         <ListItem>
           <Meta>Github</Meta>
           <Link href="https://github.com/dennis-hash/Project2ndYear">
-            Mfarm <ExternalLinkIcon mx="2px" />
+          FarmDirect <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
